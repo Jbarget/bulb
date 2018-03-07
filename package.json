@@ -1,0 +1,39 @@
+{
+    "name": "my-energy-usage",
+    "version": "1.0.0",
+    "description": "Show energy usage",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack-dev-server",
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-jest": "^21.0.2",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-react": "^6.24.1",
+        "css-loader": "^0.28.7",
+        "enzyme": "^3.0.0",
+        "enzyme-adapter-react-15": "^1.0.0",
+        "enzyme-to-json": "^3.3.1",
+        "html-webpack-plugin": "^2.30.1",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^21.1.0",
+        "node-sass": "^4.5.3",
+        "react-test-renderer": "^15.6.2",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.0",
+        "webpack": "^3.6.0",
+        "webpack-dev-server": "^2.8.2"
+    },
+    "dependencies": {
+        "react": "^15.6.1",
+        "react-dom": "^15.6.1",
+        "recharts": "^1.0.0-beta.10"
+    }
+}
