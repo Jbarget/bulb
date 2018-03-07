@@ -18,7 +18,7 @@ export default () => {
       if (!hasNextReading) return acc;
 
       const energyUsage = meterReadings[i+1].cumulative - meterReading.cumulative;
-
+      if (energyUsage < 0) return acc;
       acc.push({
         energyUsage,
         date: meterReading.readingDate.slice(0, 10)
