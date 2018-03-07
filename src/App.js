@@ -21,7 +21,7 @@ export default () => {
 
       acc.push({
         energyUsage,
-        date: meterReading.readingDate
+        date: meterReading.readingDate.slice(0, 10)
       });
 
       return acc;
